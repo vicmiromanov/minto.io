@@ -1,0 +1,246 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: 
+	border-box;
+}
+
+body {
+	width: 1300px;
+}
+
+/*start header*/
+header {
+	border-top: 10px #82699d solid;
+	height: 139px;
+	padding: 40px 150px;
+}
+
+.name_site {
+	padding: 10px;
+	font-size: 39px;
+	font-family: SamoSans;
+	color: #ac9ebb;
+	float: left;
+}
+
+.logo {
+	float: left;
+}
+
+.logo p {
+	position: absolute;
+    margin-top: -55px;
+    margin-left: 22px;
+    color: white;
+    font-size: 29px;
+    font-family: SamoSans;
+}
+
+
+.nav {
+	padding: 25px 0;
+	display: flex;
+	float: right;
+	list-style: none;
+}
+
+.nav li {
+	font-size: 19px;
+	font-family: segoe ui;
+	color: #545454;
+}
+
+.nav a {
+	padding: 10px;
+	text-decoration: none;
+}
+/*stop header*/
+/*start lider*/
+
+@import url(https://fonts.googleapis.com/css?family=Istok+Web);
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+figure { 
+  margin: 0; 
+  background: white;
+  font-family: Istok Web, sans-serif;
+  font-weight: 100;
+}
+div#captioned-gallery { 
+  width: 1020px; 
+  overflow: hidden; 
+}
+figure.slider { 
+  position: relative; 
+  width: 500%;
+  font-size: 0; 
+  animation: 30s slidy infinite; 
+}
+figure.slider figure { 
+  width: 20%; 
+  height: auto;
+  display: inline-block;  
+  position: inherit; 
+}
+figure.slider img { 
+	width: 100%; 
+	height: auto; 
+}
+figure.slider figure figcaption { 
+  position: absolute; 
+  bottom: 0;
+  background: rgba(0,0,0,0.4);
+  color: #fff; 
+  width: 100%;
+  font-size: 2rem; 
+  padding: .6rem; 
+}
+
+/*stop slider*/
+
+/*start content*/
+
+.content {
+	text-align: center;
+	padding: 25px 150px;
+}
+
+.content p {
+	font-size: 23px;
+	font-family: SofiaProLight;
+	color: black;
+}
+
+.content b {
+	font-size: 23px;
+	font-family: SofiaProLight;
+	color: #82699d;
+}
+
+
+
+.details  img{
+	padding-top: 30px;
+	float: left;
+}
+
+figcaption h1 {
+	text-align: left;
+	color: #838383;
+	padding-top: 20px;
+	padding-bottom: 35px;
+	font-size: 31px;
+	font-family: Segoe UI;
+	font-weight: bold;
+}
+
+.txt {
+	width: 645px;
+	margin-left: 335px;
+}
+
+.txt p {
+	text-align: left;
+	line-height: 200%;
+	font-size: 15px;
+	font-family: Segoe UI;
+}
+/*stop*/
+/*start link*/
+
+.link {
+	width: 1000px;
+	margin-top: 90px;
+	background: #f5f5f5;
+	padding:20px;
+	display: flex;
+	border-right-style: 2px black solid; 
+}
+/*stop link*/
+/*start footer*/
+
+footer {
+	
+	border-bottom: 10px #82699d solid;
+ 	padding-top: 65px;
+}
+
+footer p{
+	
+	font-size: 14px;
+	font-family: Segoe UI;
+	padding: 25px 150px;
+	background: #e7e7e7;
+}
+
+.social {
+	padding-left: 20px;
+	float: right;
+}
+/*stop footer*/
+
+/*start contact_us*/
+
+.contacts {
+	border-top: 10px #82699d solid
+}
+
+.contacts h2{
+
+	text-align: center;
+	color: #ac9ebb;
+	font-size: 22px;
+	font-family: SamoSans;
+}
+
+form {
+
+	text-align: center;
+	width: 500px;
+
+}
+
+.form_social {
+	display: flex;
+}
+input, textarea {
+	width: 500px;
+	height: 40px;
+	margin-top: 20px;
+	color: #445162;
+	font-family: arial;
+	font-size: 16px;
+	border-radius: 7px;
+}
+
+textarea {
+	height: 170px;
+}
+
+#submit {
+	width: 140px;
+	height: 40px;
+	color: #445162;
+	font-size: 16px;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.carts {
+	margin-top: 20px;
+	border-bottom: 10px #82699d solid;
+	border-top: 10px #82699d solid;
+	
+
+}
